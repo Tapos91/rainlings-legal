@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Account and Data Deletion</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #07111f;
+      --panel: #0d1b2e;
+      --panel-soft: #132842;
+      --text: #eff7ff;
+      --muted: #b8c8d9;
+      --line: #2a9dce;
+      --accent: #67e8b9;
+      --warning: #ffd166;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at 15% 10%, rgba(42, 157, 206, 0.24), transparent 28rem),
+        radial-gradient(circle at 85% 0%, rgba(103, 232, 185, 0.12), transparent 24rem),
+        var(--bg);
+      color: var(--text);
+      font-family: Verdana, Geneva, sans-serif;
+      line-height: 1.65;
+    }
+    main {
+      width: min(920px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0;
+    }
+    header,
+    section {
+      border: 1px solid rgba(42, 157, 206, 0.55);
+      background: rgba(13, 27, 46, 0.88);
+      border-radius: 22px;
+      box-shadow: 0 22px 60px rgba(0, 0, 0, 0.36);
+    }
+    header {
+      padding: 30px;
+      margin-bottom: 18px;
+    }
+    section {
+      padding: 24px 30px;
+      margin: 14px 0;
+    }
+    h1, h2 {
+      line-height: 1.2;
+      margin: 0 0 12px;
+    }
+    h1 {
+      font-size: clamp(2rem, 6vw, 3.6rem);
+      letter-spacing: -0.04em;
+    }
+    h2 {
+      color: var(--accent);
+      font-size: 1.35rem;
+    }
+    p, li { color: var(--muted); }
+    ul { padding-left: 1.3rem; }
+    a { color: var(--accent); font-weight: 700; }
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 18px;
+    }
+    nav a {
+      display: inline-flex;
+      padding: 8px 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(103, 232, 185, 0.28);
+      background: rgba(103, 232, 185, 0.08);
+      text-decoration: none;
+    }
+    .badge {
+      display: inline-flex;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: rgba(103, 232, 185, 0.12);
+      border: 1px solid rgba(103, 232, 185, 0.35);
+      color: var(--accent);
+      font-weight: 700;
+      margin-bottom: 14px;
+    }
+    .note {
+      color: var(--warning);
+      font-weight: 700;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="badge">Rainlings</div>
+      <h1>Account and Data Deletion</h1>
+      <p>Use this page to request deletion of your Rainlings game profile and related online data.</p>
+      <p><strong>Last updated:</strong> September 15, 2026</p>
+      <nav aria-label="Rainlings legal links">
+        <a href="https://tapos91.github.io/rainlings-legal/">Legal & Data</a>
+        <a href="https://tapos91.github.io/rainlings-legal/privacy/">Privacy Policy</a>
+        <a href="https://tapos91.github.io/rainlings-legal/terms/">Terms and Fair Play Rules</a>
+        <a href="https://tapos91.github.io/rainlings-legal/data-deletion/">Account and Data Deletion</a>
+      </nav>
+    </header>
+    
+    <section>
+      <h2>How To Request Deletion</h2>
+      <p>You can start a deletion request from inside Rainlings through <strong>Settings -> Help</strong> when the support screen is available, or outside the app by email.</p>
+      <p>Email <a href="mailto:rainlingsgame@gmail.com?subject=Rainlings%20Data%20Deletion%20Request">rainlingsgame@gmail.com</a> with the subject <strong>Rainlings Data Deletion Request</strong>.</p>
+      <p>Please include one of these so we can find the correct profile:</p>
+      <ul>
+        <li>Your Rainlings player ID from the support/details screen.</li>
+        <li>A recent support code.</li>
+        <li>Your current Rainlings display name, if you do not have the ID.</li>
+      </ul>
+    </section>
+    <section>
+      <h2>What We Delete</h2>
+      <ul>
+        <li>Online player profile information.</li>
+        <li>Leaderboard entries connected to that profile.</li>
+        <li>Support inbox messages and non-essential support data connected to that profile.</li>
+        <li>Gameplay wallet/inventory data stored on the Rainlings backend.</li>
+        <li>Identifiable gameplay analytics events connected to that online profile.</li>
+      </ul>
+      <p>Local data stored only on your device can usually be removed by deleting the app or clearing app data on your device. Rainlings cannot remove local-only data from a device it cannot access.</p>
+    </section>
+    <section>
+      <h2>What May Be Kept</h2>
+      <p>Some records may be kept when needed for fraud prevention, future purchase verification, refund or payment dispute handling, tax/accounting, security, legal obligations, platform enforcement, or to prove that a deletion request was handled. These records are kept only as long as necessary.</p>
+      <p>Aggregated, anonymous, or de-identified data may be kept if it can no longer reasonably identify a player.</p>
+    </section>
+    <section>
+      <h2>Timing and Verification</h2>
+      <p>We will review deletion requests as soon as reasonably possible, usually within 30 days where feasible. Some requests may take longer if we need extra information to identify the correct profile, prevent fraud, handle open support/purchase disputes, or meet legal/platform requirements.</p>
+      <p>We may ask for additional information, such as a player ID or support code, only to confirm that we are deleting the correct profile.</p>
+    </section>
+    <section>
+      <h2>Important</h2>
+      <p class="note">Deleting online data can remove leaderboard entries, support history, online wallet/inventory recovery, and purchase recovery records connected to that profile.</p>
+      <p>Deletion may be permanent and may make some online features, recovery options, support history, or purchase investigation records unavailable for that deleted profile.</p>
+      <p>Game rules and fair play terms are available at <a href="https://tapos91.github.io/rainlings-legal/terms/">/terms</a>.</p>
+    </section>
+  </main>
+</body>
+</html>
